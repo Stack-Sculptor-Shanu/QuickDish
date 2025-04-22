@@ -47,3 +47,21 @@
     gap: 20px;
     font-size: 18px;
 }
+/* Navbar finished here */
+/* Main body */
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    height: 250px;
+    width: 150px;
+    background-color: aqua;
+}
+.items>img{
+    height: 75%;
+    width: 90%;
+    background-color: beige;
+}
+
