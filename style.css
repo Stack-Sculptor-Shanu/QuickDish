@@ -49,17 +49,33 @@
 }
 /* Navbar finished here */
 /* Main body */
-.body{
+.carousel {
+    height: 350px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
-.items{
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.items {
     height: 250px;
     width: 150px;
     background-color: aqua;
 }
-.items>img{
+
+.items > img {
     height: 75%;
     width: 90%;
     background-color: beige;
